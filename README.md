@@ -1,6 +1,6 @@
 # Grace Q. Hu 个人网站
 
-文艺、干净的作家个人网站，适合 GitHub Pages 直接部署。
+文艺的、干净的作家个人网站，适合 GitHub Pages 直接部署。
 
 ## 网站结构
 
