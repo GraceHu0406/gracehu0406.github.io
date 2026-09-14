@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>摄影 · Grace Q. Hu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="logo">Grace Q. Hu</a>
+      <div class="nav-right">
+        <button id="lang-btn" class="lang-btn">EN</button>
+        <button class="menu-toggle">☰</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="poetry.html" data-i18n="nav.poetry">诗歌</a></li>
+        <li><a href="fiction.html" data-i18n="nav.fiction">小说</a></li>
+        <li><a href="photography.html" class="active" data-i18n="nav.photo">摄影</a></li>
+        <li><a href="project.html" data-i18n="nav.project">万物生</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="section-title">摄影 / Photography</h1>
+    <p class="section-desc">光与影的片段 · 点击可放大</p>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#888;">照片 1</div>
+      </div>
+      <div class="gallery-item">
+        <div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#888;">照片 2</div>
+      </div>
+      <div class="gallery-item">
+        <div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#888;">照片 3</div>
+      </div>
+      <div class="gallery-item">
+        <div style="width:100%;height:100%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#888;">照片 4</div>
+      </div>
+    </div>
+
+    <p style="margin-top:40px; padding:20px; background:#f0efeb; border-radius:6px; font-size:0.9rem; color:#555;">
+      <strong>如何替换/增加照片：</strong><br>
+      1. 把照片放到 <code>images/</code> 文件夹<br>
+      2. 把上面的灰色占位改成：<br>
+      <code>&lt;img src="images/你的照片.jpg" alt="描述"&gt;</code><br>
+      建议先用 TinyPNG 压缩图片。
+    </p>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close">×</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <footer>
+    <p data-i18n="footer">© 2026 Grace Q. Hu · 稼禾三笙</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

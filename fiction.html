@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小说 · Grace Q. Hu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="logo">Grace Q. Hu</a>
+      <div class="nav-right">
+        <button id="lang-btn" class="lang-btn">EN</button>
+        <button class="menu-toggle">☰</button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="poetry.html" data-i18n="nav.poetry">诗歌</a></li>
+        <li><a href="fiction.html" class="active" data-i18n="nav.fiction">小说</a></li>
+        <li><a href="photography.html" data-i18n="nav.photo">摄影</a></li>
+        <li><a href="project.html" data-i18n="nav.project">万物生</a></li>
+        <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="section-title">小说 / Fiction</h1>
+    <p class="section-desc">故事与想象</p>
+
+    <ul class="work-list">
+      <li class="work-item">
+        <a href="#">
+          <h3>灯塔</h3>
+          <p class="meta">The Lighthouse · 短篇 · 2024</p>
+          <p class="excerpt">海边的光，年复一年地转动。有人来，有人走，灯塔始终在那里。</p>
+        </a>
+      </li>
+      <li class="work-item">
+        <a href="#">
+          <h3>时间错位</h3>
+          <p class="meta">Time Out of Place · 短篇 · 2024</p>
+          <p class="excerpt">她总是比约定的时间早到，或者晚到。时间在她身上似乎走得不一样。</p>
+        </a>
+      </li>
+    </ul>
+
+    <p style="margin-top:48px; padding:20px; background:#f0efeb; border-radius:6px; font-size:0.9rem; color:#555;">
+      <strong>如何添加新小说：</strong><br>
+      复制上面的 <code>&lt;li class="work-item"&gt;</code> 结构，修改标题、简介和链接即可。完整正文可放在单独的 html 文件中。
+    </p>
+  </main>
+
+  <footer>
+    <p data-i18n="footer">© 2026 Grace Q. Hu · 稼禾三笙</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
